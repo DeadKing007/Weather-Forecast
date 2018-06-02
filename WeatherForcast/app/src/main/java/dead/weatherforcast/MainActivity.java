@@ -106,8 +106,8 @@ public class MainActivity extends AppCompatActivity {
                 info.setDescription(description);
                 info.setHumidity(Humidity);
                 info.setIcon(icon);
-                info.setMax_Temp(Max_temp);
-                info.setMin_Temp(Min_temp);
+                info.setMax_Temp(Max_temp+(char) 0x00B0+"C");
+                info.setMin_Temp(Min_temp+(char) 0x00B0+"C");
                 info.setLocation(getLocationPreference());
                 info.setDate("");
                 info.setIcon(icon);
