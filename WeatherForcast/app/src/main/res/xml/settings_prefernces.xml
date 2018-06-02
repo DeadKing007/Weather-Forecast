@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:title="@string/WeatherCity">
+<EditTextPreference
+    android:title="@string/Location"
+    android:key="@string/location_key"
+    android:defaultValue="@string/London"
+    android:summary="@string/Enteracity"
+    />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
